@@ -1,0 +1,26 @@
+[package]
+authors = [ "you" ]
+build = "src/build.rs"
+default-run = "tauri-svite-app-template"
+description = "A Taurie"
+edition = "2018"
+license = ""
+name = "tauri-svite-app-template"
+repository = ""
+version = "0.1.0"
+
+[dependencies]
+serde = { version = "1.0", features = [ "derive" ] }
+serde_json = "1.0"
+tauri = { version = "0.9", features = [ "all-api" ] }
+
+[target."cfg(windows)".build-dependencies]
+winres = "0.1"
+
+[features]
+embedded-server = [ "tauri/embedded-server" ]
+no-server = [ "tauri/no-server" ]
+
+[[bin]]
+name = "tauri-svite-app-template"
+path = "src/main.rs"

@@ -1,0 +1,29 @@
+{
+  "name": "tauri-svite-app-template",
+  "version": "1.0.0",
+  "scripts": {
+    "validate": "svelte-check && tsc --noEmit",
+    "dev": "svite -ts",
+    "build": "svite build -ts"
+  },
+  "dependencies": {
+    "tauri": "^0.12.0"
+  },
+  "devDependencies": {
+    "@tsconfig/svelte": "^1.0.10",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-svelte3": "^2.7.3",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.1.2",
+    "prettier-plugin-svelte": "^1.4.0",
+    "rollup": "^2.28.2",
+    "svelte": "3.26.0",
+    "svelte-check": "^1.0.53",
+    "svelte-hmr": "0.11.0",
+    "svelte-preprocess": "^4.3.2",
+    "svite": "latest",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.3"
+  }
+}
