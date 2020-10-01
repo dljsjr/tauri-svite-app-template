@@ -1,6 +1,7 @@
 {
   "name": "tauri-svite-app-template",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "validate": "svelte-check && tsc --noEmit",
     "dev": "svite -ts",

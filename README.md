@@ -2,7 +2,7 @@
 
 This is a simple skeleton app that provides an environment with:
 
-- [svite](https://www.google.com/search?client=safari&rls=en&q=svite&ie=UTF-8&oe=UTF-8): Svelte 3 + Vite
+- [svite](https://github.com/dominikg/svite): Svelte 3 + Vite
   - [Svelte](https://svelte.dev)
   - [Vite](https://github.com/vitejs/vite): Super fast native-ESM powered web dev build tool.
 - Configured for TypeScript + SCSS via `node-sass`
